@@ -10,20 +10,88 @@
 <body>
 	<div id="header">
 		<div id="top-menu">
+			<ul>
+				<li><a href="#POPULAR"> POPULAR </a><span class="separator">-</span></li>
+				<li><a href="#ALL"> ALL </a><span class="separator">-</span></li>
+				<li><a href="#RANDOM"> RANDOM </a><span class="separator">-</span></li>
+				<li><a href="#ASKREDDIT"> USERS </a><span class="separator">-</span></li>
+				<li><a href="#WORLDNEW"> WORLDNEW </a><span class="separator">-</span></li>
+				<li><a href="#VIDEOS"> VIDEOS </a><span class="separator">-</span></li>
+				<li><a href="#FUNNY"> FUNNY </a></li>
+				<li><a href="#TODAYLEARNED"> TODAYLEARNED </a><span class="separator">-</span></li>
+				<li><a href="#PICS"> PICS </a><span class="separator">-</span></li>
+				<li><a href="#GAMING"> GAMING </a><span class="separator">-</span></li>
+				<li><a href="#MOVIES"> MOVIES </a><span class="separator">-</span></li>
+				<li><a href="#NEWS"> NEWS </a><span class="separator">-</span></li>
+				<li><a href="#GIFS"> GIFS </a><span class="separator">-</span></li>
+				<li><a href="#MILDI"> MILDI </a><span class="separator">-</span></li>
+				<li><a href="#MORE"> MORE </a></li>
+			</ul>
 		</div> <!-- /.top-menu -->
-		<div id="logo">
+			<div id="logo" class="clearfix">
 			<img id="logo-photo" src="logo.png"> </img>
 		</div> <!-- /.logo -->
 		<div id="bottom-menu">
-		</div> <!-- /.top-menu -->
+			<ul>
+				<li><a href="#hot">hot</a></li>
+				<li><a href="#new">new</a></li>
+				<li><a href="#rising">rising</a></li>
+				<li><a href="#contorversial">contorversial</a></li>
+				<li><a href="#top">top</a></li>
+				<li><a href="#gilded">gilded</a></li>
+				<li><a href="#wiki">wiki</a></li>
+			</ul>
+			
+		</div> <!-- /.bottom-menu -->
 		<div id="registration-suggest">
-		</div> <!-- /.registration-suggest -->
+				<span id="wanttojoin">Want to join? <a href="#login">Log in</a> or <a href="#registration">sign up</a> in seconds.</span>
+			</div> <!-- /.registration-suggest -->
 	</div> <!-- /.header -->
 	<div id="main-part">
 	</div> <!-- /.main-part -->
 	<div id="left-part">
+		<div id="search">
+			<form action="#searchresults" id="search"">
+				<input type="text" name="q" placeholder="search" tabindex="20">
+				<input type="submit" value="" tabindex="22">
+			</form>
+		</div> <!-- /.search -->
+		<div class="login-form">
+			<form method="post" action="#loginpage" id="loginid">
+				<input type="hidden" name="log-name" value="login-main">
+				<input name="user" placeholder="username" type="text" >
+				<input name="passwd" placeholder="password" type="password">
+				<div id="remember-me">
+					<input type="checkbox" name="remember-me" id="rememeber-	me-login">
+						<label for="rem-login-main">remember me</label>
+						<a class="recover-password" href="/password">reset password</a>
+				</div>
+				<div class="submit">
+					<button class="btn" type="submit">login</button>
+				</div> <!-- /.submit -->
+			</form>
+		</div> <!-- /.registration-form -->
+		<div id="ad1"></div>
+		<div class="submitter">
+			<div id="sub1">
+					<a href="#newlink" data-event-action="submit">Submit a new link</a>
+			</div> <!-- /.sub1 -->
+		</div> <!-- submitter -->
+		<div class="submitter">
+			<div id="sub2">
+					<a href="#newpost" data-event-action="submit">Submit a new text post</a>
+			</div> <!-- /.sub2 -->
+		</div> <!-- submitter -->
+		<div id="daily-goal"><h2>daily reddit gold goal</h2>
+			<div id="progress">
+				<p>75%</p>
+				<div class="bar"></div>
+			</div>
+			<a href="#progreslink" target="_blank"> help support reddit</a>
+		</div>
+		<div id="ad2"></div>
 	</div> <!-- /.left-part -->
 	<div id="contact">
 	</div> <!-- /.contact -->
 </body>
-</html>
+</html>	
