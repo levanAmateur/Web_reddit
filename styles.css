@@ -69,12 +69,6 @@ body {
     
 }
 
-#left-part{
-	margin: 0;
-    padding: 0;
-	display: block;
-}
-
 #logo {
 	height: 40px;
     width: 120px;
@@ -148,7 +142,7 @@ body {
 #left-part {
 	float: right;
     background-color: white;
-    margin: 5px 3px 5px 3px;
+    margin: 5px 5px 5px 3px;
     width: 300px;
     padding: 0;
     display: block
@@ -171,14 +165,82 @@ body {
 #login-form {
 	margin: 0;
 	padding: 0;
+    height: 100px;
+    border:1px solid grey;     
 }
 
-#login-form input {
+
+#input-username-div-id {
+    float: left;
+}
+
+#input-username-div-id input {
 	border: 1px solid #999;
-    width: 141px;
-    margin: 5px 0px 0px 5px;
+    width: 125px;
+    margin: 5px 5px 5px 5px;
     top: 5px;
     padding: 6px;
 }
 
+#input-password-div-id {
+    float: left;
+}
 
+#input-password-div-id input {
+    border: 1px solid #999;
+    width: 125px;
+    margin: 5px 5px 5px 5px;
+    top: 5px;
+    padding: 6px;
+}
+
+#remember-me {
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 80%;
+}
+
+#pas-reset {
+    float: left;
+    margin-left: 10px;
+}
+
+#pas-reset a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #369;
+    font-size: 80%;
+}
+
+#login-id {
+    position: relative;
+    float: right;
+    margin-right: 5px;
+}
+
+.submitter {
+    clear: both;
+}
+
+.left-add {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 3px;
+    margin-top: 8px;
+    margin-right: 8px;   
+}
+
+#ad1-photo {
+    width: 100%;
+    height: 100%;   
+}
+
+#ad2-photo {
+    width: 100%;
+    height: 100%;
+}
+
+#daily-goal {
+    text-align: center;
+}
