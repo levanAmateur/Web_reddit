@@ -356,6 +356,7 @@ body {
 .content {
     margin: 0;
     padding: 0;
+    width: 800px;
     text-decoration: none;
     float: left;
 }
@@ -394,4 +395,8 @@ body {
     font-size: 80%;
     color: #888;
     font-weight: bold;
+}
+
+.opener a{
+	color: black;
 }
